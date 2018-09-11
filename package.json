@@ -1,0 +1,23 @@
+{
+  "name": "k-means-plus",
+  "version": "1.0.0",
+  "description": "K-means++ clustering a classification of data, so that points assigned to the same cluster are similar (in some sense). It is identical to the K-means algorithm, except for the selection of initial conditions.",
+  "main": "dist/lib.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack"
+  },
+  "author": "Sitian Liu <goldensunliu@gmail.com> (https://www.sitianliu.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "fast-memoize": "^2.5.1",
+    "lodash": "^4.17.10",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
