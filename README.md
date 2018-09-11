@@ -1,4 +1,4 @@
-# major-colors [![npm version](https://badge.fury.io/js/k-means-plus.svg)](https://badge.fury.io/js/k-means-plus)
+# K-means++ [![npm version](https://badge.fury.io/js/k-means-plus.svg)](https://badge.fury.io/js/k-means-plus)
 [K-means++](https://en.wikipedia.org/wiki/K-means%2B%2B) clustering a classification of data, so that points assigned to the same cluster are similar (in some sense). It is identical to the [K-means algorithm](https://en.wikipedia.org/wiki/K-means_clustering), except for the careful selection of initial conditions. It is a way of avoiding the sometimes poor clusterings found by the standard k-means algorithm. k-means++ variance address this major theoretic shortcoming and guarantee an approximation ratio O(log k) in expectation (over the randomness of the algorithm), where k is the number of clusters used.
 
 ### Install
